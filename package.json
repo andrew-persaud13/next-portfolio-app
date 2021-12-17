@@ -5,11 +5,27 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "dev-debug": "NODE_OPTIONS='--inspect' next dev"
   },
   "dependencies": {
+    "@auth0/nextjs-auth0": "^0.11.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.4.1",
+    "dotenv-webpack": "^1.7.0",
+    "moment": "^2.29.1",
     "next": "10.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-datepicker": "^2.15.0",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^6.0.2",
+    "react-resize-detector": "^6.6.4",
+    "react-toastify": "^7.0.3",
+    "react-typed": "^1.2.0",
+    "reactstrap": "^8.9.0",
+    "sass": "^1.32.8",
+    "slate-simple-editor": "git+https://github.com/Jerga99/slate-simple-editor.git",
+    "swr": "^0.5.5",
+    "tslib": "^1.9.0"
   }
 }
